@@ -9,7 +9,7 @@ There is a one-off setup authentication process
 
 2. Use GetCredential.py to generate an Authentication URL, it means the User open the URL will authorise the upload program to upload to his Google Drive
 
-GetCredential.py <CLIENTSECRET_PATH> <SAVE_STORAGE_NAME>
+GetCredential.py CLIENTSECRET_PATH SAVE_STORAGE_NAME
 
 3. Obtain the access token and type it in the console to answer the questions by GetCredential.py
 
@@ -17,7 +17,7 @@ GetCredential.py <CLIENTSECRET_PATH> <SAVE_STORAGE_NAME>
 
 And then you can use the UploadToGoogle to upload the file, the syntax is as followed. 
 
-UploadToGoogle.py <STORAGE_FILE> <FULL_FILENAME>
+UploadToGoogle.py STORAGE_FILE FULL_FILENAME
 
 The storage file is the file you get in step 1
 
